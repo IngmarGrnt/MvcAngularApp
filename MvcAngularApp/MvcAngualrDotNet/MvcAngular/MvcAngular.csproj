@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSwag.AspNetCore" Version="14.1.0" />
+    <PackageReference Include="Webpack" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\MvcAngularAppCli\src\app\components\" />
+    <Folder Include="ClientApp\wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\app\3rdpartylicenses.txt" />
+    <None Include="wwwroot\app\browser\favicon.ico" />
+    <None Include="wwwroot\app\browser\index.html" />
+    <None Include="wwwroot\app\browser\main.js" />
+    <None Include="wwwroot\app\browser\polyfills.js" />
+    <None Include="wwwroot\app\browser\styles.css" />
+  </ItemGroup>
+
+</Project>
