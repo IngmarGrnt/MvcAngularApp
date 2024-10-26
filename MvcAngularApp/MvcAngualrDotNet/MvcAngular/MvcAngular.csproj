@@ -7,13 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\app\3rdpartylicenses.txt" />
+    <Content Remove="wwwroot\app\browser\favicon.ico" />
+    <Content Remove="wwwroot\app\browser\index.html" />
+    <Content Remove="wwwroot\app\browser\main.js" />
+    <Content Remove="wwwroot\app\browser\polyfills.js" />
+    <Content Remove="wwwroot\app\browser\styles.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="NSwag.AspNetCore" Version="14.1.0" />
     <PackageReference Include="Webpack" Version="4.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\MvcAngularAppCli\src\app\components\" />
-    <Folder Include="ClientApp\wwwroot\" />
+    <Folder Include="ClientApp\MvcAngularAppCli\src\MyComponent\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,7 +30,7 @@
     <None Include="wwwroot\app\browser\index.html" />
     <None Include="wwwroot\app\browser\main.js" />
     <None Include="wwwroot\app\browser\polyfills.js" />
-    <None Include="wwwroot\app\browser\styles.css" />
+    <None Include="wwwroot\css\styles.css" />
   </ItemGroup>
 
 </Project>

@@ -25,7 +25,8 @@ app.UseAuthorization();
 app.UseOpenApi(); // serve documents (same as app.UseSwagger())
 app.UseSwaggerUi(); // serve Swagger UI
 
-
+//Fallback to Angular's index.html for client-side routes
+app.MapFallbackToFile("/app/browser/index.html");
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

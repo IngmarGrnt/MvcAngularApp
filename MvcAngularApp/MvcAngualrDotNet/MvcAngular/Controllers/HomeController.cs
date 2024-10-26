@@ -23,7 +23,7 @@ namespace MvcAngular.Controllers
             return View();
         }
 
-        public IActionResult SimpleComponent()
+        public IActionResult AngularAppMvc()
         {
             return View();
         }
