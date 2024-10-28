@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "AngularMvcApp Page";
+    ViewBag.Title = "MvcAngularComponent Page";
 }
 
 <!-- AngularApp.cshtml -->
@@ -8,11 +8,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="/app/" />
-    <link rel="stylesheet" href="~/app/browser/styles.css">
+    <base href="/app/"/>
 </head>
 <body>
     <h1>@ViewData["Title"]</h1>
+
+    @* Hier word mijn Component toegevoegd van het pad: 
+    MvcAngualrDotNet\MvcAngular\ClientApp\MvcAngularAppCli\components\my-component.component.ts
+    *@
     <app-my-component></app-my-component>
 
 </body>

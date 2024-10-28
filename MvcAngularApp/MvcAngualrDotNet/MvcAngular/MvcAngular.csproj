@@ -22,11 +22,13 @@
 
   <ItemGroup>
     <Folder Include="ClientApp\MvcAngularAppCli\src\MyComponent\" />
+    <Folder Include="ClientApp\MvcAngularAppCli\wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\app\3rdpartylicenses.txt" />
     <None Include="wwwroot\app\browser\favicon.ico" />
+    <None Include="wwwroot\app\browser\styles.css" />
     <None Include="wwwroot\app\browser\index.html" />
     <None Include="wwwroot\app\browser\main.js" />
     <None Include="wwwroot\app\browser\polyfills.js" />
